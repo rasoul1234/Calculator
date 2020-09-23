@@ -6,7 +6,7 @@
 
 /**
  *
- * @author Mohammad Rasoul
+ * @author Mohammad Rasoul Sahibzadah
  */
 import java.util.Scanner;
 public class Calculator {
@@ -36,6 +36,8 @@ public class Calculator {
                 System.out.println(x+" / "+y+" ="+Divide(x,y)); break;
             case 5:
                 System.out.println(x+" % "+y+" ="+Modulas(x,y));break;
+            case 6:
+                System.out.println(x+" ^ "+y+" ="+Power(x,y));break;
             default:
                 System.out.println("nothing to be done");
                 
@@ -48,13 +50,15 @@ public class Calculator {
      }
      static void Menu(){
          System.out.println("================================================================");
-         System.out.println("                             Menu                               ");
+         System.out.println("                        Calculator Menu                         ");
          System.out.println("================================================================");
          System.out.println("        1.Add");
          System.out.println("        2.Subtract");
          System.out.println("        3.Multiply");
          System.out.println("        4.Divide");
          System.out.println("        5.Modulas");
+         System.out.println("        6.Power");
+         
          
      }
      static int Add(int x, int y){
@@ -73,4 +77,7 @@ public class Calculator {
          return x%y;
          
      }
-}
+      static double Power(int x , int y){
+         return  Math.pow(x,y);
+         
+     }
