@@ -17,11 +17,11 @@ public class Calculator {
        do{
         Menu();
         
-        System.out.println("Enter your choice:");
+        System.out.println("Please Select one of the Below choice:");
         int c= input.nextInt();
-        System.out.println("Enter your first number :");
+        System.out.println("Please Enter your first number :");
         int x=input.nextInt();
-        System.out.println("Enter your second number :");
+        System.out.println("Please Enter your second number :");
         int y=input.nextInt();
         
         switch (c){
