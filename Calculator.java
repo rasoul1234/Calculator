@@ -57,16 +57,16 @@ public class Calculator {
      static int Add(int x, int y){
        return x+y;
      }
-     static int Subtract(int x, int y){
+     static double Subtract(int x, int y){
          return x-y;
      }
-     static int Multiply(int x, int y){
+     static double Multiply(int x, int y){
        return x*y;
      }
-     static int Divide(int x, int y){
+     static double Divide(int x, int y){
          return x/y;
      }
-     static int Modulas(int x , int y){
+     static double Modulas(int x , int y){
          return x%y;
          
      }
